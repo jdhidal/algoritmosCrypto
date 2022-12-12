@@ -1,0 +1,356 @@
+¿QUÉ SON ALGORITMOS DE CIFRADO? TIPOS Y CARACTERÍSTICAS
+La gestión adecuada de las claves criptográficas es esencial para el uso efectivo de la criptografía por seguridad. Las claves son análogas a la combinación de una caja fuerte.
+Si un adversario conoce una combinación segura, la caja fuerte más fuerte no proporciona seguridad contra la penetración. Del mismo modo, una mala gestión de claves puede comprometer fácilmente algoritmos fuertes.
+Al igual que una combinación de caja fuerte, tus claves de cifrado son tan buenas como la seguridad que utilizas para protegerlas. Hay un sistema criptográfico físico y digital completo que debe tenerse en cuenta, así como el ciclo de vida completo de cada clave.
+Por lo tanto, un sistema y políticas robustos de administración de algoritmos de cifrado incluye:
+•	Ciclo de vida clave: generación de claves, preactivación, activación, caducidad, posactivación, custodia y destrucción
+•	Acceso físico a los servidores clave
+•	Acceso lógico a los servidores clave
+•	Acceso de usuario / rol a las claves de cifrado
+Aquí tienes una completa guía sobre los algoritmos de cifrado, definición, tipos, características y funcionamiento.
+Definición de algoritmos de cifrado
+Un algoritmo de cifrado es un componente para la seguridad del transporte electrónico de datos. Los pasos matemáticos reales se toman y se enlistan al desarrollar algoritmos para propósitos de encriptación, y se utilizan diferentes cifrados de bloque para encriptar datos o números electrónicos.
+Los algoritmos de cifrado ayudan a prevenir el fraude de datos, como el perpetrado por piratas informáticos que obtienen ilegalmente información financiera electrónica. Estos algoritmos son parte de los protocolos de gestión de riesgos de cualquier empresa y a menudo se encuentran en aplicaciones de software.
+Los algoritmos de cifrado ayudan en el proceso de transformación de texto sin formato en texto cifrado y luego de vuelta a texto sin formato con el fin de proteger los datos electrónicos cuando se transportan a través de redes.
+Al codificar o cifrar datos, los hackers u otros usuarios no autorizados generalmente no pueden acceder a dicha información.
+Algunos algoritmos de cifrado se consideran más rápidos que otros, pero mientras los desarrolladores de algoritmos, muchos de los cuales tienen antecedentes matemáticos, se mantengan al tanto de los avances en esta tecnología, este tipo de cifrado debe continuar floreciendo a medida que los piratas informáticos continúan volviéndose más sofisticados.
+Los algoritmos de cifrado pueden variar en longitud, pero la fuerza de un algoritmo generalmente es directamente proporcional a su longitud.
+¿Para qué sirve la criptografía o cifrado de datos?
+El cifrado desempeña un papel importante en la protección de muchos tipos diferentes de activos de tecnología de la información (TI). Proporciona lo siguiente:
+•	Confidencialidad: codifica el contenido del mensaje.
+•	Autenticación: verifica el origen de un mensaje.
+•	Integridad: demuestra que el contenido de un mensaje no ha cambiado desde que se envió.
+•	No rechazo: evita que los remitentes nieguen haber enviado el mensaje cifrado.
+El cifrado se usa comúnmente para proteger los datos en tránsito y los datos en reposo.
+Cada vez que alguien usa un cajero automático o compra algo en línea con un teléfono inteligente, se utiliza el cifrado para proteger la información que se transmite. Las empresas confían cada vez más en el cifrado para proteger las aplicaciones y la información confidencial del daño a la reputación cuando hay una violación de datos.
+Hay tres componentes principales para cualquier sistema de cifrado: los datos, el motor de cifrado y la gestión de claves.
+En el cifrado de la computadora portátil, los tres componentes se ejecutan o almacenan en el mismo lugar: en  portatil.
+El objetivo principal del cifrado es proteger la confidencialidad de los datos digitales almacenados en los sistemas informáticos o transmitidos por Internet o cualquier otra red informática.
+Además de la seguridad, la adopción del cifrado de datos suele estar impulsada por la necesidad de cumplir con las normas de cumplimiento. Varias organizaciones y organismos de normalización recomiendan o requieren que se cifren datos confidenciales para evitar que terceros no autorizados o actores de amenazas accedan a los datos.Por ejemplo, el Estándar de seguridad de datos de la industria de tarjetas de pago ( PCI DSS ) requiere que los comerciantes cifren los datos de la tarjeta de pago de los clientes cuando se almacenan en reposo y se transmiten a través de redes públicas.
+Tipos de algoritmos de cifrado en Internet
+Estos son los principales algoritmos de cifrado existentes.
+Claves simétricas: datos en reposo
+En la criptografía de cifrado simétrico, se utiliza la misma clave de cifrado para cifrar y descifrar los datos. Este medio de cifrado se utiliza principalmente para proteger los datos en reposo.
+Un ejemplo sería cifrar datos confidenciales en texto cifrado mientras están almacenados en una base de datos y descifrarlos en texto sin formato cuando un usuario autorizado accede a ellos, y viceversa.
+Claves asimétricas: datos en movimiento
+Las claves asimétricas, por otro lado, son un par de claves para el cifrado y descifrado de los datos. Ambas claves están relacionadas entre sí y se crean al mismo tiempo. Se les conoce como clave pública y privada:
+•	Clave pública: esta clave se usa principalmente para cifrar los datos y se puede dar libremente, ya que se usará para cifrar datos, no para descifrarlos.
+•	Clave privada: esta clave se utiliza para descifrar los datos que su contraparte, la clave pública, ha cifrado. Esta clave debe protegerse, ya que es la única clave que puede descifrar los datos cifrados.
+El cifrado asimétrico se utilizan principalmente para proteger los datos en movimiento. Un ejemplo podría ser una conexión de red privada virtual (VPN). Con una VPN:
+•	Se utiliza una clave de sesión simétrica AES para cifrar los datos
+•	Se usa una clave pública para cifrar la clave de sesión
+•	Una vez que se reciben los datos cifrados, la clave privada se utiliza para descifrar la clave de sesión para que se pueda usar para descifrar los datos.
+Por bloques
+El cifrado de bloque procesa la entrada de texto claro en bloques de tamaño fijo y produce un bloque de texto cifrado de igual tamaño para cada bloque de entrada
+Los algoritmos de cifrado simétrico de bloque más importantes son:
+•	Data Encryption Standard (DES)
+•	Triple DES (3DES)
+•	Advanced Encryption Standard (AES)
+En flujos
+En este algoritmo de cifrado se combinan los dígitos del texto claro con un flujo pseudoaleatorio de dígitos (flujo de claves). Puede ser síncrono o asíncrono.
+En el cifrado de flujo síncrono, el flujo de claves se genera en función de la clave solamente. En el asíncrono (o auto-sincronizable), el flujo de claves se genera en función de la clave y de un número fijo de dígitos previos del texto cifrado.
+Triple DES
+Triple DES o 3DES es el sucesor del algoritmo DES, o el Estándar de cifrado de datos.
+DES es un método obsoleto de clave simétrica de cifrado de datos. Fue eliminado debido a sus vulnerabilidades sobreexplotadas.
+Originalmente, DES solía ser un método de cifrado muy popular. Es una creación de los ingenieros de IBM, desde 1970. En 1977, el gobierno de los EE. UU. Lo adoptó como un estándar de cifrado: el Estándar de cifrado de información federal. DES se utilizó para proteger datos no clasificados pero confidenciales.
+Fue el primer algoritmo aprobado por el gobierno federal para divulgación pública. Ganó popularidad rápidamente entre las empresas que se ocupan de información confidencial: instituciones financieras, empresas de telecomunicaciones, otros proveedores de software e Internet, etc.
+DES cifra los datos agrupándolos en bloques y codificándolos simultáneamente aplicando la clave a todo el bloque, en lugar de bit a bit. Los bloques son siempre de 64 bits.
+La clave podría aplicarse a todos los bloques simultáneamente o podría usarse otro modelo en el que el cifrado de un bloque dependa del resultado del anterior.
+En DES, la misma clave se usa para cifrar y descifrar el mensaje. La decodificación no es más que aplicar los mismos pasos en dirección inversa y en orden inverso.
+Triple DES se utiliza para pagos en línea, por aplicaciones en el paquete de Microsoft Office, así como por Firefox y Thunderbird de Mozilla.
+RSA
+A diferencia de DES, RSA es asimétrico, lo que significa que el sistema no está utilizando la misma clave para descifrado y cifrado. El algoritmo funciona mediante la generación de una clave pública y una privada. Las claves pública y privada no son idénticas, pero están vinculadas entre sí.
+No hay diferencia sobre qué clave se usa para el cifrado y cuál se usa para el descifrado. Tanto la clave privada como la pública pueden usarse para codificar el mensaje y la clave opuesta deberá aplicarse para decodificarlo.
+El alto nivel de seguridad que proporciona RSA está garantizado por la dificultad de factorizar cadenas largas, producto de factorizar dos números primos grandes.
+RSA se utiliza para la autenticación SSH, para el cifrado SSL y para proteger datos confidenciales en varios navegadores.
+Blowfish
+Al igual que DES, la tecnología de Blowfish es simétrica, lo que significa que se usa una clave privada (o solo una clave) para cifrar un bloque completo de datos. El tamaño de los bloques es de 64 bits, y la longitud de la clave puede variar de una clave de 32 bits a una de 448 bits.
+Con la capacidad de usar teclas más cortas, el método Blowfish es una alternativa que es considerablemente más rápida que sus dos competidores. La excepción es cambiar las claves. Cada cambio de clave requiere un preprocesamiento, que requiere recursos equivalentes a encriptar 4KB de texto.
+Blowfish no está patentado. Su flexibilidad, velocidad y seguridad le da una ventaja competitiva frente a sus alternativas. Se puede utilizar y explorar de forma gratuita. Por lo tanto, es muy popular en software criptográfico.
+Twofish
+Twofish, al igual que su predecesor Blowfish, utiliza cifrado en bloque. Es simétrico, lo que nuevamente significa que se usa la misma clave para cifrar y descifrar. Twofish divide el mensaje que necesita cifrado en bloques de 128 bits y aplica la clave simultáneamente a todos los bloques. El tamaño del bloque es otra diferencia con Blowfish.
+A diferencia de su predecesor, Twofish solo usa claves para el cifrado de datos de hasta 256 bits. El cifrado de cada bloque tiene una relación compleja con el resultado del cifrado del bloque anterior.
+La codificación con Twofish es popular para software y dispositivos que tienen recursos de procesamiento relativamente bajos a su disposición, como las tarjetas SIM.
+Twofish se considera rápido, flexible y, al mismo tiempo, tiene un diseño conservador.
+Al igual que Blowfish, el método de cifrado no ha sido patentado y es de uso gratuito.
+AES
+AES es otro algoritmo de cifrado simétrico. Se hizo popular por su fácil implementación en hardware, así como por entornos restringidos.
+Sus características son:
+•	Fue probado previamente para resistir ataques.
+•	Alta eficiencia computacional y de memoria y bajo coste.
+•	Flexibilidad, fácil implementación y simplicidad.
+AES trabaja con rondas de cifrado. Cada ronda es una secuencia de varios pasos de procesamiento, que podrían ser una combinación de sustitución, transposición y creación de relaciones entre el texto sin formato de entrada y la salida.
+El número de rondas aplicables varía con 10 rondas aplicadas con claves de 128 bits, 12 rondas para claves de 192 bits y 14 rondas para claves de 256 bits.
+El cifrado AES utiliza la sustitución de datos basada en tablas por filas y columnas. La regla de sustitución está dictada por diferentes partes de la clave de cifrado.
+¿Qué es el criptoanálisis?
+El criptoanálisis es el estudio de métodos para obtener el significado de la información encriptada, sin acceso a la información secreta que normalmente se requiere para hacerlo.
+Por lo general, esto implica saber cómo funciona el sistema y encontrar una clave secreta. El criptoanálisis también se conoce como descifrar el código.
+El texto cifrado es generalmente la parte más fácil de obtener de un criptosistema y, por lo tanto, es una parte importante del criptoanálisis. Según la información disponible y el tipo de cifrado que se está analizando, los criptoanalistas pueden seguir uno o más modelos de ataque para descifrar un cifrado.
+El criptoanálisis es la ciencia de descifrar códigos y decodificar secretos. Se utiliza para violar los esquemas de autenticación, para romper los protocolos criptográficos y, más benignamente, para encontrar y corregir las debilidades en los algoritmos de cifrado.
+Se puede usar en aplicaciones de guerra de información, por ejemplo, falsificar una señal encriptada para que sea aceptada como auténtica.
+Los competidores que hayan podido descubrir la clave ahora querrán usarla en su beneficio, por lo tanto, querrán enviar mensajes cifrados falsos a la fuente para obtener información o obtener una ventaja.
+También podría usarse para fingir ser la fuente para enviar información falsa a otros, que ahora pensarán que proviene de la fuente oficial.
+Tipos de ataques
+En criptografía, el objetivo del atacante es romper el secreto del cifrado y aprender el mensaje secreto y, mejor aún, la clave secreta.
+Hay docenas de diferentes tipos de ataques que se han desarrollado contra diferentes tipos de criptosistemas con diferentes niveles de efectividad. Algunos son fácilmente comprensibles, mientras que otros pueden requerir un título avanzado en matemáticas para comprenderlos.
+En esta publicación, discutiremos algunos de los ataques más comunes y por qué pueden o no funcionar contra diferentes tipos de cifrados.
+De fuerza bruta
+El ataque más simple a un cifrado es el ataque de fuerza bruta. En este ataque, un atacante simplemente intenta descifrar el mensaje con cada clave secreta posible y comprueba el resultado del descifrado para ver si tiene sentido.
+Dado el tiempo suficiente y los recursos computacionales, se garantiza que este ataque funcionará ya que la verdadera clave secreta debe estar dentro del conjunto de posibles claves secretas y el atacante eventualmente lo intentará y (con suerte) se dará cuenta de que el texto sin formato resultante es el correcto.
+Las cifras modernas se protegen contra los ataques de fuerza bruta mediante el uso de una clave secreta que es lo suficientemente larga como para hacer imposible adivinar todas las posibilidades.
+Man-in-the-Middle
+El ataque Man-in-the-Middle (MitM) supone que un atacante, Juan, puede insertarse en el canal de comunicación entre María y Pedro, que están tratando de hablar entre ellos. Cuando María envía un mensaje a Pedro, Juan lo intercepta antes de que llegue a él.
+En un ataque exitoso de MitM, Juan puede descifrar el mensaje interceptado, leerlo y posiblemente modificarlo, y luego pasarlo a Pedro.
+Para llevar a cabo un ataque Man-in-the-Middle, Juan generalmente necesita poder convencer a María de que es Pedro y a Pedro de que es María.
+Juan establecerá de manera independiente una clave secreta separada con cada parte y, cuando un mensaje se mueva de María a Pedro, descifrará el uso de su clave para María y se volverá a cifrar usando su clave para Pedro. Mientras Juan controle el único canal de comunicación entre María y Pedro, el ataque MitM es indetectable.
+Solo texto cifrado
+Un ataque de solo texto cifrado es un caso en el que solo el mensaje cifrado está disponible para el ataque, pero debido a que se conoce el idioma, se podría intentar un análisis de frecuencia.
+En esta situación, el atacante no sabe nada sobre el contenido del mensaje y debe trabajar solo desde texto cifrado.
+Texto plano conocido
+En un ataque de texto sin formato conocido, tanto el texto sin formato como el texto cifrado coincidente están disponibles para su uso al descubrir la clave.
+El atacante conoce o puede adivinar el texto sin formato de algunas partes del texto cifrado.
+Por ejemplo, tal vez todas las sesiones de inicio de sesión seguro comiencen con los caracteres INICIAR SESIÓN, y la siguiente transmisión puede ser CONTRASEÑA.
+La tarea es descifrar el resto de los bloques de texto cifrado utilizando esta información. Esto puede hacerse determinando la clave utilizada para cifrar los datos, o mediante algún acceso directo.
+Texto plano elegido
+Un ataque de texto sin formato elegido ocurre cuando el atacante obtiene acceso al dispositivo de cifrado de destino, si, por ejemplo, se deja desatendido. El atacante luego ejecuta varias piezas de texto sin formato a través del dispositivo para el cifrado. Esto se compara con el texto sin formato para intentar derivar la clave.
+En un ataque adaptado de texto sin formato elegido, el atacante no solo tiene acceso al texto sin formato y su cifrado, sino que puede adaptar o modificar el texto sin formato elegido según sea necesario en función de los resultados de los cifrados anteriores.
+Texto cifrado elegido
+En un ataque de texto cifrado elegido, el criptoanalista puede elegir diferentes textos cifrados para descifrar y tiene acceso al texto plano descifrado.
+Este tipo de ataque es generalmente aplicable a ataques contra criptosistemas de clave pública.
+Un ataque adaptativo de texto cifrado elegido implica que el atacante selecciona ciertos textos cifrados para descifrarlos, y luego usa los resultados de estos descifrados para seleccionar textos cifrados posteriores. Las modificaciones en el texto cifrado ayudan a descifrar la clave de los descifrados.
+Canal lateral
+Los ataques de canal lateral son un tipo de ataques basados en detalles de implementación, como el tiempo, la potencia y las emisiones de radiación.
+Contra un sistema vulnerable, el ataque es computacionalmente económico y a menudo solo requiere texto cifrado conocido. Los sistemas reales están potencialmente en riesgo, incluidos los tokens criptográficos, los criptosistemas basados en red y otras aplicaciones donde los atacantes pueden realizar mediciones de tiempo razonablemente precisas.
+El análisis de potencia diferencial describe una nueva clase de ataques contra tarjetas inteligentes y tokens criptográficos seguros. Explotan los comportamientos característicos de las puertas lógicas de transistores y el software que se ejecuta en las tarjetas inteligentes y otros dispositivos criptográficos actuales. Los ataques se realizan mediante la monitorización de la actividad eléctrica de un dispositivo, luego se utilizan métodos estadísticos avanzados para determinar información secreta en el dispositivo.
+Técnicas de criptoanálisis
+No existe un método general que nos permita atacar con total seguridad un sistema, por el contrario existen una gran variedad de métodos que se han utilizado con éxito contra algunas clases de cifrado.
+Algunos de ellos, como el criptoanálisis diferencial, tienen una importancia más teórica que practica. Debemos hacer notar que los métodos que conocemos son los que se han publicado, no sabemos nada sobre los métodos que conocen las agencias nacionales de seguridad.
+A continuación veremos algunas de las técnicas más importantes.
+Fuerza Bruta o exhaustivo
+Es el método menos sutil, más evidente y menos practico. Este método solo es útil en los casos en los que el tamaño de la clave sea lo suficientemente reducido.
+Sin embargo la aparición de los ordenadores y en particular el espectacular aumento de potencia de los mismos ha propiciado que este tipo de ataque deba considerarse. Pero debe limitarse a espacios de búsqueda limitados a no ser que se disponga de información suplementaria sobre alguna debilidad del sistema que permita reducir el espacio de búsqueda o aplicar algún tipo de búsqueda heurística.
+Frecuencia de aparición de cada carácter
+Pretende utilizar las características básicas del lenguaje como son la frecuencia de aparición de los caracteres que lo forman y las combinaciones más frecuentes de ellos para reducir el espacio de búsqueda de la solución.
+En cualquier lenguaje existen un conjunto de letras que se repiten frecuentemente y otras que se utilizan mucho menos. También es frecuente la aparición de pares de letras (digramas) o tripletes (trigramas). Todas estas
+características son explotadas por el criptoanalista para deducir el mensaje original a partir del cifrado.
+Método de Kasiski
+Se trata de un método de reducción de cifrados polialfabéticos inicialmente desarrollado por Charles Babbage, pero que éste no publico. Quien sí lo publicó en 1860, y es por ello que se conoce con su nombre, fue el militar prusiano Friedrich W. Kasiski. Hay que indicar que el método fue desarrollado independientemente por ambos personajes.
+El método se basa en comprobar la frecuencia de aparición de grupos de letras muy comunes.  Para solucionar el criptograma, se buscan todas las repeticiones y se calcula la distancia entre ellas.
+Índice de coincidencia
+Se trata de un método estadístico que nos permite entre otras cosas obtener el período en un cifrado polialfabético. Tiene su importancia por el hecho de utilizar por primera vez, de una forma sistemática, las matemáticas como una
+herramienta criptoanalítica.
+El Indice de Coincidencia IC, también conocido como test Kappa se basa en responder a la siguiente pregunta, dadas dos letras cualquiera de un texto ¿Cual es la probabilidad de que coincidan? Para calcularlo nos basamos en la Medida de Dispersión.
+La importancia del Indice de coincidencia radica principalmente en ser la base para la posterior introducción y afianzamiento de la estadística como herramienta criptoanalítica. Es más, la estadística es la primera y más importante arma actual en el criptoanálisis.
+¿Cómo implantar un algoritmo de cifrado seguro?
+Para que los datos sean seguros, deben estar protegidos durante todo su ciclo de vida. Por lo tanto, es importante tener en cuenta el estado de los datos que está tratando de proteger:
+1.	Datos en movimiento: se transmiten a través de una red
+2.	Datos en reposo: en su almacenamiento o en computadoras de escritorio, computadoras portátiles, teléfonos móviles, tabletas y dispositivos Iot
+3.	Datos en uso:  en el proceso de ser generados, actualizados, borrados o vistos.
+Cada tipo de datos presenta desafíos únicos. Y cada uno puede tener diferentes herramientas y metodologías que pueden usarse para asegurarlo.
+Cifrado de datos en reposo
+Los tipos de cifrado para datos en reposo incluyen los siguientes:
+•	Full Disk Encryption (FDE)  para protección de punto final
+•	Cifrado de disco completo con autenticación previa al arranque (FDE con PBA) para la protección del punto final
+•	Módulo de seguridad de hardware (HSM) para la protección del ciclo de vida de la administración de claves
+•	Sistema de cifrado de archivos (EFS) para protección de almacenamiento
+•	Cifrado virtual para protección de almacenamiento
+•	Cifrado de archivos y carpetas (FFE) para protección de datos no estructurados
+•	Cifrado de base de datos para protección de datos estructurados
+Cifrado de datos en movimiento
+Los tipos de cifrado para datos en movimiento incluyen (entre otros) los siguientes:
+•	Red privada virtual (VPN) para acceso remoto
+•	Acceso protegido a Wi-Fi (WPA / WPA2) para acceso inalámbrico
+•	Capa de sockets seguros (SSL) para las comunicaciones del navegador web al servidor
+•	Secure Shell (SSH) para la administración segura de sistemas remotos
+El método más común para proteger los datos en movimiento es el uso de una red privada virtual de capa de sockets seguros (VPN SSL). Las tecnologías como SSL VPN son críticas en el esfuerzo por proteger contra ataques de intermediarios y rastreadores de paquetes.
+Cifrado de datos en uso
+La computación en la nube ha creado la necesidad de proteger los datos en uso, ya que los proveedores externos cada vez más alojan y procesan datos. Pero los datos en uso son los más difíciles de proteger, ya que casi siempre tienen que ser descifrados y, por lo tanto, expuestos para poder ser utilizados.
+Esto abre los servidores para atacar mediante una técnica llamada raspado de RAM, que examina la memoria del servidor web en ejecución y extrae datos mientras está en su estado procesado y sin cifrar.
+Debido a que las claves de descifrado y los datos descifrados no deben estar completamente disponibles para un atacante para que el cifrado brinde seguridad, los controles alternativos generalmente se proporcionan en un entorno donde las claves o los datos están en uso.
+Las empresas que implementan servicios en la nube deben buscar una solución distribuida como HSM para mantener las claves seguras y fuera del control del proveedor de servicios.
+Las compañías de seguridad están comenzando a abordar la brecha de seguridad en el cifrado de datos en uso mediante la introducción de nuevos productos como el cifrado «totalmente homomórfico» que podría permitir un análisis sin restricciones de la información cifrada, así como el cifrado de memoria completa, que limita los datos de texto claro al CPU caché interna.
+La ciberseguridad y los datos protegidos son cada día más importantes. A medida que recopilamos más datos bancarios, de salud y comerciales en línea, mantenerlos seguros puede resultar difícil. Es por eso que la mayoría de los programas y aplicaciones que utilizamos dependen de alguna forma de cifrado de datos para mantener nuestra información segura.
+¿Cuáles son los diferentes tipos de cifrado? Si bien los más comunes son AES, RSA y DES, también se utilizan otros tipos. Analicemos qué significan estos acrónimos, qué es el cifrado y cómo mantener seguros tus datos en línea.
+¿Qué es el cifrado de datos?
+El cifrado de datos es lo que sucede cuando tomas el texto o los datos que usas y los conviertes en un código (también llamado "texto cifrado") que no pueden entender quienes no tienen la clave correcta. Para que los datos sean utilizables, se deben volver a cambiar o descifrar.
+El cifrado es necesario porque nos permite enviar información relevante y, a menudo, sensible a través de Internet y por medios electrónicos sin que personas no autorizadas la vean. Para que los datos se descifren, se necesita una clave, que tendrán los usuarios autorizados. Sin embargo, ten en cuenta que incluso los datos cifrados a veces pueden ser descifrados por personas con suficientes habilidades o recursos, algunos de los cuales pueden tener intenciones maliciosas.
+El cifrado generalmente evita el robo o el intercambio de datos importantes, ya sean las películas que vemos, que utilizan la gestión de derechos digitales (DRM) para evitar copias ilegales, o las contraseñas de inicio de sesión bancarias que escribimos en el sitio web del banco.
+Por qué es importante el tipo de cifrado 
+Los métodos de cifrado varían según la cantidad de datos que pueden manejar a la vez y qué tipo de clave necesitan para su descifrado. Algunos cifrados se hackean más fácilmente que otros. Si bien algunas empresas o personas eligen el tipo de cifrado de acuerdo con los estándares dictados por las regulaciones legales o industriales, otros pueden simplemente elegir su tipo en función de sus preferencias personales. Es importante porque son tus datos los que están siendo protegidos. Querrás el mejor tipo de cifrado para los datos que estás almacenando o transmitiendo.
+Los distintos tipos de cifrado
+Los tres principales tipos de cifrado son DES, AES y RSA. Si bien hay muchos tipos de cifrado, más de los que se pueden explicar aquí fácilmente, nos enfocaremos en estos tres tipos importantes de cifrado que los consumidores utilizan todos los días. La mayoría de los demás son variaciones de tipos más antiguos y algunos ya no son compatibles ni recomendados. La tecnología evoluciona todos los días e incluso los que se consideran modernos serán reemplazados por versiones más nuevas en algún momento.
+Así como la tecnología de seguridad está tomando medidas para aumentar la seguridad de tu información, los hackers o piratas informáticos van encontrando formas de evadirla. Es una carrera armamentista con tus datos como botín de guerra. Vamos a sumergirnos en los métodos de cifrado populares, la historia del cifrado y hacia dónde se dirige a continuación.
+Cifrado DES
+Aceptado como el estándar de cifrado en la década de 1970, el cifrado DES ya no se considera seguro por sí solo. Encripta sólo 56 bits de datos a la vez y se descubrió que era fácil de hackear poco después de su introducción. Sin embargo, ha servido como el estándar en el que se basaron las futuras herramientas de cifrado más seguras.
+3DES
+Una evolución más moderna es una versión del cifrado de bloques que se usa en la actualidad. El Estándar de Datos de Cifrado Triple (Triple Data Encryption Standard en inglés, conocido por sus siglas 3DES) funciona como su nombre lo indica. En lugar de utilizar una única clave de 56 bits, utiliza tres claves independientes de 56 bits para una triple protección.
+El inconveniente de 3DES es que se tarda más en cifrar los datos. Además, las longitudes de bloque más cortas se cifran tres veces, pero aún pueden hackearse. Los bancos y las empresas aún dependen de él en este momento, pero es posible que los formularios más nuevos pronto eliminen esta versión.
+¿Cuándo deberías utilizar el cifrado DES?
+Hoy en día es poco probable que uses el cifrado DES o incluso el 3DES por tu cuenta. Si bien las instituciones bancarias y otras empresas pueden utilizar 3DES internamente o para sus transmisiones privadas, el estándar de la industria se ha alejado de él, y ya no se está incorporando a los productos tecnológicos más nuevos.
+Cifrado AES
+Uno de los tipos de cifrado más seguros, el Estándar de Cifrado Avanzado (Advanced Encryption Standard, o AES), lo utilizan los gobiernos y las organizaciones de seguridad, así como las empresas privadas para las comunicaciones clasificadas. AES utiliza un cifrado de clave "simétrico". Alguien en el extremo receptor de los datos necesitará una clave para decodificarlos.
+AES se diferencia de otros tipos de cifrado en que cifra los datos en un solo bloque, en lugar de como bits de datos individuales. Los tamaños de bloque determinan el nombre de cada tipo de datos cifrados AES:
+
+
+•	AES-128 cifra bloques de un tamaño de 128 bits.
+•	AES-192 cifra bloques de un tamaño de 192 bits.
+•	AES-256 cifra bloques de un tamaño de 256 bits.
+Además de tener diferentes tamaños de bloque, cada método de cifrado tiene un número diferente de rondas. Estas rondas son los procesos de convertir un fragmento de datos tipo texto en datos cifrados o texto cifrado. AES-128, por ejemplo, usa 10 rondas y AES-256 usa 14 rondas.
+¿Cuándo deberías utilizar el cifrado AES?
+La mayoría de las herramientas de datos disponibles en el mercado hoy en día utilizan cifrado AES. Incluso aquellos que te permiten utilizar otros métodos con sus programas recomiendan el estándar AES. Funciona en muchas aplicaciones y sigue siendo el método de cifrado más seguro y aceptado por su precio. De hecho, probablemente lo estés usando sin siquiera saberlo.
+Encriptación RSA
+Otro estándar de encriptación popular es “Rivest-Shamir-Adleman” o RSA. Se usa ampliamente para los datos enviados en línea y se basa en una clave pública para cifrar los datos. Aquellos en el extremo receptor de los datos tendrán su propia clave privada para decodificar los mensajes. Se ha demostrado que es una forma segura de enviar información entre personas que quizás no se conozcan y quieran comunicarse sin comprometer sus datos personales o confidenciales.
+¿Cuándo deberías utilizar el cifrado RSA?
+Necesitarás saber un poco sobre el uso de RSA para que sea parte de tu rutina, pero una vez establecido, tiene muchos usos. Algunas personas lo usan para verificar una firma digital y asegurarse de que la persona con la que se están comunicando sea realmente quien dice ser. Sin embargo, lleva mucho tiempo cifrar los datos de esta manera y no es práctico para archivos grandes o numerosos.
+Tipos de cifrado adicionales
+Hay otros servicios y herramientas de cifrado disponibles, incluidos los peces (Twofish, Blowfish y Threefish). Utilizan diferentes tecnologías para cifrar datos y son populares entre muchos codificadores y desarrolladores. También han sido parte integral de los productos de software de protección de contraseña en el mercado. No tienen patente y cualquier persona puede utilizarlos sin licencia.
+No se debe esperar que los consumidores comprendan todo sobre el cifrado o sepan cómo cifrar personalmente. De todos modos, incluso un conocimiento limitado de cifrado puede resultar útil a la hora de seleccionar y comprar productos y herramientas de privacidad y seguridad. Sigue estas reglas para obtener el mejor resultado:
+
+
+•	Evita cualquier empresa que no pueda (o no quiera) compartir el método de cifrado que utiliza.
+•	Investiga tipos desconocidos. Algunas herramientas de cifrado desconocidas son una versión más moderna de los tipos estándar.
+•	Evita el cifrado DES original. No cumple con los estándares actuales.
+•	3DES ya no se está usando para las herramientas y productos avanzados. Evítalo si puedes.
+Si no estás seguro de algo que hayas leído sobre el cifrado, no dudes en comunicarte con un experto en informática de tu zona o el fabricante de tu dispositivo.
+El futuro del cifrado de datos
+El cifrado se utiliza en los productos y herramientas tecnológicas que compramos todos los días, y seguirá siendo la base de la seguridad para todo, desde los juegos de computador hasta nuestras llamadas telefónicas VOIP (protocolo de voz sobre Internet) y videollamadas. Si se puede enviar o almacenar, es probable que esté encriptado o tenga acceso a datos encriptados.
+A medida que cambia la tecnología, también lo harán los tipos de cifrado que se desarrollan y utilizan. Los piratas informáticos o hackers se están volviendo más sofisticados en sus esfuerzos, manteniendo a los profesionales que crean estas herramientas seguras ocupados con formas de adelantarse a los tipos malos.
+Puedes estar seguro de que las herramientas de software y hardware de mayor reputación serán seguras de usar siempre que sigas las pautas del fabricante y mantengas tu equipo actualizado y en buen estado. Si bien es probable que ocurran incidentes, aún podemos confiar en los tipos de cifrado más populares de la actualidad.
+¿Qué es el cifrado?
+El cifrado es un método de protección de datos que consiste en alterarlos hasta hacerlos ilegibles. Los datos pasan de ser texto sin formato a ser texto cifrado por medio de un método denominado algoritmo. Quien desee acceder a los datos cifrados debe descodificarlos primero con la clave de descifrado correcta.
+El cifrado de datos aumenta la seguridad de sus datos confidenciales y su información personal, y le ofrece protección y privacidad en un mundo en línea totalmente imprevisible.
+Cifrado frente a criptografía
+La práctica del cifrado es una forma de criptografía. «Criptografía» procede del griego y etimológicamente significa «escritura secreta». La gente lleva miles de años empleando sistemas criptográficos para ocultar información escrita, de modo que solo el destinatario pueda leerla.
+El cifrado no es más que una forma de criptografía. Se trata de un proceso que utiliza cálculos y algoritmos para codificar texto plano de forma más eficiente y compleja. El cifrado se utiliza principalmente para evitar el uso no autorizado de datos.
+¿Cómo funciona el cifrado?
+El cifrado funciona pasando los datos originales (o texto plano) por un algoritmo (o cifra) que los convierte en texto cifrado. El nuevo texto resulta ilegible si no se utiliza la clave de descifrado adecuada para descodificarlo.
+Esto es igualmente cierto para los datos en reposo (almacenados en algún sitio, como un disco duro) y en movimiento (en transferencia electrónica de un lugar a otro, por ejemplo, a través de una red o de Internet).
+Los algoritmos de cifrado emplean claves criptográficas (cadenas de caracteres) para transformar los datos en un sinsentido aparentemente aleatorio. Los algoritmos modernos descomponen los datos de texto plano en grupos llamados bloques y luego cifran cada bloque como una unidad. Por este motivo se los denomina cifradores de bloques.
+Los algoritmos actuales son tan complejos que el mismo texto plano puede terminar como un texto cifrado distinto cada vez que se aplican. Los datos solo se pueden descodificar con la clave para esa sesión de cifrado específica. En resumen, así es como se cifran los datos.
+Cifrado simétrico frente a asimétrico
+Los dos principales tipos de cifrado son el simétrico y el asimétrico Estas son las principales diferencias entre ambos:
+•	El cifrado simétrico utiliza la misma clave tanto para cifrar los datos como para descifrarlos más tarde. El remitente debe entregar previamente la clave al destinatario y cualquier persona con dicha clave puede acceder a la información. Por eso el cifrado simétrico también se conoce como cifrado de clave privada: si la clave se hace pública, deja de ser seguro.
+•	El cifrado asimétrico es más seguro, ya que utiliza dos claves: una pública para cifrar los datos y otra privada para descifrarlos. La clave pública se puede compartir con cualquiera, motivo por el cual a este método se lo conoce como cifrado de clave pública. Solo aquellos con la clave privada pueden devolver los datos cifrados a su estado de texto plano inteligible.
+Tipos de cifrado
+Los primeros tipos de cifrado, como Data Encryption Standard (DES), empleaban claves de 56 bits para codificar los datos. Estos sistemas antiguos no tienen nada que hacer frente a los actuales métodos de hackeo, como los ataques de fuera bruta. Porque es posible hackear los datos cifrados. Con el tiempo, han surgido nuevos y más complejos tipos de cifrado para reemplazar al DES.
+Aquí tiene algunos de los métodos de cifrado más comunes de hoy en día:
+Triple DES
+El sistema simétrico Triple DES utiliza tres claves de 56 bits. Los datos se cifran, se descifran y se vuelven a cifrar. A la hora de recuperar la información, Triple DES repite el proceso a la inversa: descifra, cifra y vuelve a descifrar. Este sistema es mucho más seguro que utilizar una sola clave de 56 bits.
+Sin embargo, el proceso en varias fases resulta lento y los bloques más cortos de Triple DES no son tan seguros como los que utilizan otros algoritmos más largos. En la actualidad, Triple DES ya se va quedando obsoleto.
+AES
+Advanced Encryption Standard (AES) es un sistema simétrico que suelen utilizar empresas, instituciones financieras y gobiernos. Cifra los datos en grandes bloques de 128 bits y dispone de claves de distintos tamaños. Además, cada clave pasa por distintas rondas de cifrado (el proceso que codifica y descodifica los datos) para lograr mayor seguridad:
+•	AES-128: una clave de 128 bits en 10 rondas 
+•	AES-192: una clave de 192 bits en 12 rondas
+•	AES-256: una clave de 256 bits en 14 rondas
+Avast SecureVPN cifra sus datos con AES-256 para darle la misma seguridad en la que confían las entidades bancarias y gobiernos de todo el mundo.
+Blowfish
+Blowfish, desarrollado en un primer momento como una solución de cifrado público rápida y gratuita que reemplazara a DES, es un cifrador simétrico de bloques que divide los datos en paquetes de 64 bits. Genera claves de longitud variable, desde 32 hasta 448 bits (aunque normalmente no llega a esos extremos). 
+Blowfish lo utilizan muchos sitios de comercio electrónico, por ejemplo para procesar contraseñas y pagos seguros, y supuestamente nadie ha conseguido hackearlo nunca.
+Twofish
+Twofish crea bloques de 128 bits y la longitud de la clave base puede llegar hasta los 256 bits. Siempre procesa los bloques en 16 rondas, independientemente del tamaño de los datos con los que trabaja. Sus usuarios destacan Twofish por la capacidad de personalización y el alto grado de seguridad.
+RSA
+El estándar Rivest-Shamir-Adleman (RSA) es el único algoritmo de cifrado asimétrico de esta lista. Suele utilizarse para firmas digitales y para enviar datos por correo electrónico, chats, navegadores seguros y VPN (redes privadas virtuales). El algoritmo RSA utiliza números primos para generar claves de 1024 bits que pueden extenderse hasta los 2048 bits.
+Por su tamaño de clave, utilizar RSA en archivos cifrados grandes puede llevar un tiempo, por lo que suele utilizarse en configuraciones de cifrado híbridas: el archivo se cifra mediante uno de los sistemas simétricos y la clave se cifra de forma asimétrica utilizando RSA.
+PFS
+Perfect Forward Secrecy (PFS, también denominado en ocasiones Forward Secrecy) es un sistema simétrico que crea intercambios de claves privadas temporales entre remitentes y destinatarios. Las claves son específicas de sesión y cada nueva sesión crea una nueva clave. De este modo, aunque se quiebre la seguridad de una sesión, todas las demás (pasadas y futuras) siguen siendo seguras.
+Las claves de cifrado de PFS pueden tener 128, 168 o 256 bits. Es el sistema que utilizan WhatsApp, Facebook Messenger, Google Docs y Gmail. Google Chrome también utiliza PFS y muchos otros navegadores web están comenzando a adoptarlo.
+FPE
+Format Preserving Encryption (FPE) es una nueva clase de algoritmo de clave simétrica que conserva los datos cifrados en un formato similar al que tienen como texto plano. Por ejemplo, si tiene una contraseña con diez letras, cuatro números y tres caracteres especiales, el texto cifrado será similar. Un número de tarjeta de crédito de 16 dígitos se convierte en otro número de 16 dígitos, las palabras en español se convierten en palabras en español, etcétera. 
+Format Preserving Encryption se utiliza en bases de datos financieras, así como en algunas entidades bancarias y distribuidores minoristas.
+Cifrado de extremo a extremo
+Al analizar los métodos de cifrado, es importante considerar si este se produce solo en tránsito o de extremo a extremo.
+•	El cifrado en tránsito protege los datos mientras se transfieren del remitente al servidor, donde quedan vulnerables como texto plano. 
+•	El cifrado de extremo a extremo significa que solo los dispositivos pertenecientes al remitente y al destinatario cuentan con las claves correctas para descifrar la información. Cualquier dato protegido con cifrado de extremo a extremo está seguro durante toda la travesía entre el remitente y el destinatario.
+¿Por qué es importante el cifrado?
+El cifrado es importante porque protege los datos del acceso no autorizado. Aunque el cifrado no garantiza una seguridad total, reduce enormemente la exposición al robo, el hackeo, la rotura de contraseñas, el robo de identidad y el fraude, así como a otras amenazas en línea.
+Cuando cifra sus datos con una VPN como Avast SecureLine VPN, evita que los ciberdelincuentes intercepten su tráfico de Internet y se hagan con sus datos personales. Esto es esencial si utiliza redes Wi-Fi públicas no protegidas. No importa los sitios que visite, una VPN mantendrá sus datos protegidos.
+¿Cómo protege los datos el cifrado?
+El cifrado informático altera los datos hasta dejarlos en un formato ilegible y que solo puede desentrañarse con la clave adecuada. Incluso las comunicaciones basadas en Internet, como el correo electrónico o la navegación web, son vulnerables sin cifrado.
+A continuación se muestran ejemplos de cifrados habituales:
+ HTTPS
+Si la URL de un sitio web comienza por https, es que está cifrado (la s significa seguro). También es posible que la barra de direcciones de su navegador muestre un pequeño icono de candado.
+HTTPS significa que su conexión con el sitio está protegida mediante Transport Layer Security (TLS), antes conocida como SSL (Secure Sockets Layer). Los datos se cifran en tránsito y se descifran en ambos extremos mediante certificados digitales verificados que actúan como claves.
+No introduzca ningún dato personal en un sitio web que no esté protegido con HTTPS. Y si se encuentra en una página de comercio electrónico, no deje de comprobar si el sitio es seguro.
+ Mensajería cifrada
+Los servicios de mensajería cifrada suelen utilizar TLS, igual que un navegador.
+Signal, WhatsApp, Facebook Messenger, Viber, LINE, KakaoTalk, Dust, Wickr, Cyphr, CoverMe y Silence son algunas de las aplicaciones de mensajería gratuita que ya utilizan cifrado. Los mensajes de Instagram Vanish también se cifran en tránsito, pero no de extremo a extremo.
+ Correo electrónico cifrado
+Outlook, Gmail y ProtonMail son ejemplos de servicios de correo electrónico que utilizan cifrado de forma predeterminada. Para los usuarios normales, este nivel de cifrado suele ser suficiente. Si desea una mayor protección, plantéese mejorar su servicio de correo u opte por uno de los muchos servicios asequibles de correo cifrado.
+Siga también estas prácticas recomendadas para el correo electrónico.
+•	Utilice contraseñas seguras. Las mejores contraseñas son largas y exclusivas. No utilice una misma contraseña para todo. Si un hacker se hace con ella, tendrá acceso a todas sus cuentas. Un administrador de contraseñas seguro puede ayudarle a crear, almacenar y utilizar contraseñas largas y exclusivas para cada una de sus cuentas.
+•	La autenticación en dos pasos (2FA) mejora su seguridad, ya que requiere dos métodos de confirmación de la identidad para iniciar sesión. Utilice 2FA en cualquier cuenta que la ofrezca, incluido su servicio de correo electrónico.
+•	Utilice filtros de spam y phishing. Es posible que su servicio de correo electrónico ya cuente con ellos. Si es así, no olvide revisar con regularidad la carpeta de spam, ya que a veces sus redes capturan mensajes legítimos. Un programa antivirus con escudo de correo electrónico le aportará una capa adicional de protección.
+ Criptodivisas
+Aparte del bitcóin, en la actualidad hay más de 2000 criptodivisas en circulación, y no dejan de crearse monedas nuevas. Las criptodivisas y las transacciones que se realizan con ellas se cifran y distribuyen entre miles de ordenadores, en un libro mayor compartido denominado blockchain. De este modo, los datos quedan descentralizados y, una vez en el blockchain, la información es imposible de alterar.
+Es posible que nadie pueda robar sus bitcoines, pero sí es posible robarle sus recursos mediante el denominado cryptojacking. Los delincuentes secuestran la capacidad de procesamiento de su ordenador para crear o «minar» criptodivisas sin su conocimiento. Su equipo funcionará más lento y la factura eléctrica se le disparará, pero todas las monedas minadas irán a parar al cryptojacker. 
+Las buenas herramientas antivirus, las extensiones del navegador de bloqueo de JavaScript y la actualización del software le ayudarán a evitarlo.
+VPN
+Una VPN (red privada virtual) cifra su tráfico de Internet y oculta su dirección IP, ya que redirige el tráfico a través de un servidor proxy. Los buenos proveedores de VPN ofrecen servidores en muchos lugares del mundo y son muy sencillas de configurar en su dispositivo. 
+Las VPN también ayudan a desbloquear sitios web normalmente inaccesibles desde su ubicación física. Al darle una nueva dirección IP y cifrar su tráfico, una VPN lo hace anónimo en línea, y no solo para los hackers, sino para los fisgones del gobierno, sus jefes y su ISP. Las VPN, los servidores proxy y el navegador Tor son distintas herramientas de privacidad, cada una con sus puntos fuertes y débiles.
+Una VPN le mantiene protegido incluso en redes Wi-Fi públicas no seguras. También podría ser conveniente activar el cifrado Wi-Fi en su casa. Algunas VPN le conectan automáticamente al servidor más rápido disponible, pero puede intentar acelerar su VPN eligiendo un servidor distinto o reiniciando el router.
+Avast SecureLine VPN emplea el protocolo OpenVPN, un sistema de código abierto en el que confían muchas grandes empresas, como Apple, y que protege sus datos con cifrado AES de 256 bits.
+¿Los datos cifrados se pueden hackear?
+Sí, es posible hackear los datos cifrados. No existe nada a salvo al 100 % de los hackers, aunque las cadenas de cifrado más largas suelen ser más difíciles de quebrar mediante un ataque de fuerza bruta.
+Cuanto más larga y compleja es una contraseña, más difícil es dar accidentalmente con la llave que abre las puertas del reino. Los ataques de fuerza bruta requieren una cantidad enorme de tiempo y capacidad de cálculo. 
+Los algoritmos criptográficos obsoletos pueden contener vulnerabilidades y son más fáciles de quebrar. Una clave contemporánea de 256 bits ofrece 2256 combinaciones posibles. El superordenador Tianhe-2 (MilkyWay-2) tardaría millones de años en comprobar todas esas combinaciones mediante fuerza bruta. 
+Por supuesto, los ordenadores son cada vez más rápidos y el mundo del cifrado debe ir siempre un paso por delante. Los algoritmos MD5 y SHA-1 no son lo bastante complejos como para proteger frente a los ordenadores actuales. Desde el punto de vista criptográfico, ambos se consideran quebrados e inadecuados.
+Si de verdad necesita proteger algo, la práctica habitual del hashing (un método de cifrado de un solo sentido) es menos segura que una tecnología como bcrypt. bcrypt, desarrollado para Blowfish en 2002 y empleado como utilidad multiplataforma de cifrado de archivos, es una función adaptativa de hashing de contraseñas mucho más resistente frente a ataques de fuerza bruta.
+Avast SecureLine VPN: la opción segura
+Una buena VPN cifra la conexión a Internet completa de su dispositivo cada vez que se conecta. Cualquier red o sitio web, incluso la Wi-Fi no protegida de su cafetería favorita, se vuelve supersegura gracias a Avast SecureLine VPN.
+
+Con un solo clic, quedará protegido frente a terceros con el mismo cifrado AES de 256 bits que emplean la banca y el Ejército: es básicamente imposible de quebrar mediante fuerza bruta. Avast SecureLine VPN también utiliza el estándar OpenVPN y librerías OpenSLL, dos de los protocolos de protección más fiables que existen. 
+Con Avast SecureLine VPN, no hay límite a lo que puede hacer ni a desde dónde puede hacerlo. Acceda a su contenido favorito sin límites de ancho de banda y proteja sus datos en cualquier dispositivo que utilice: nuestra tecnología de código abierto funciona con dispositivos Windows, Android y Apple de todo tipo.
+Algunas curiosidades criptográficas
+La criptografía, es una herramienta de la tecnología, la cual se ha implementado desde hace muchísimos años atrás, quizás miles, y hoy día ha logrado estar presente en nuestra cotidianidad, aunque no la percibimos totalmente.
+La humanidad siempre ha estado interesada en tener información en secreto o bajo resguardo, debido a esto siempre ha tenido la necesidad y curiosidad de crear herramientas, métodos y estrategias para conseguirlo.
+La criptografía se ha implementado desde hace muchísimos años inmemorables, para enviar y recibir información de persona a persona sin posibles interceptores.
+Algo de historia y conocimiento criptográfico
+La criptografía es un poco compleja es un poco compleja, es por ello que resulta necesario estar al tanto de muchas cosas de su estructura como procedencia, utilidad y aplicación, etc.
+La ocultación de un mensaje en este mundo en forma secreta se conoce como esteganografia.
+Como referencia de esto tenemos que en la antigua China se escribían los mensajes en seda fina para posteriormente amasarlos y crear una bolita pequeña la cual se envolvía de cera.
+Este modelo de envío y recepción de mensajes fue muy rápido que cobro fama, el cual ha mantenido hasta la actualidad y se ha implementado por personas mal intencionado como narcos para los intercambios comerciales de sus sustancias ilegales.
+Con la emisión y creación de los computadores, ya los mensajes se ocultaban en contenidos multimedia,  de los ordenadores se pasó a ocultar mensajes en contenidos multimedia, uniendo bits de la información del mensaje original,  entre los bits del mensaje, sofisticación de la tecnología.
+Aspectos y curiosidades en torno a la criptografía
+Para tener una idea claro de lo que es la criptografía, es bueno conocer alguna información referente al tema, las cuales serán de mucha ayuda al momento de emplear esta tecnología. Existen dos métodos criptográficos los cuales dependen del tipo de contraseña que utilicen.
+Método simétrico o Sistema de clave privada;  son los procedimientos que emplean una  clave única, en el  cifrado  y para descifrar el mensaje.
+Método asimétrico o de clave pública; este método engloba las operaciones de  cifrado y descifrado que emplean dos contraseñas, es decir una publica y una privada y suelen ser complementarias.
+En el cifrado simétrico podemos conseguir solo dos modelos  de algoritmos; el cifrado en bloque: este permite cifrar el mensaje original reuniéndolo  en bloques que representen un tamaño específico, como de 128 bits.
+El Cifrado de flujo; este no es más el proceso que permite cifrar el mensaje original de byte a byte o bit a bit.
+La ciber seguridad y su importancia
+Ya hemos notado que la criptografía se usa desde hace miles de años, en la actualidad se aplica constante, lo cual no notamos a primera vista. Un ejemplo de ello suele ser al momento de realizar compras en internet y cancelamos con la  tarjeta de nuestro banco de confianza.
+Otro proceso donde está presente la criptografía es al momento de ingresar al correo electrónico personal, por medio del navegador web vemos que, se aprecia un candadito en la barra de navegación del dominio superior, esto demuestra que nos encontramos dentro de un sitio seguro, protegida con cifrado.
+La criptografía también se presenta en el momento de realizar actividades con la Administración Pública, por medio de la firma o el DNI electrónicos.
+También la vemos en  la constante actividad de WhatsApp, al enviar mensajes hacemos aplicación de la criptografia, permitiendo que la comunicación permanezca cifrada de extremo a extremo, donde este tipo de cifrado procura que solo las personas involucradas en una comunicación tienen
+Conclusión
+Estamos en un mundo totalmente digitalizado, donde los principales elementos de las empresas y las personas son los datos y la información, tanto privada, como los datos bancarios y la  información confidencial tal como las estrategias de mercado.
+Es necesario que la criptografía de la mano con la ciber seguridad, establezcan estrategias donde las comunicaciones y el intercambio de información, logre ser lo más seguro posible y que no hayan tan intermediarios con la intensión de tener acceso a la misma con la intención de poseerla.
+El mundo de la criptografía constantemente evoluciona, brindando día a día nuevas estrategias de seguridad y privacidad para casi todo tipo transacciones realizadas ya sea en la red o en la vida laboral personal.
+Es momento de estar al tanto sobre todo lo que en este mundo criptográfico acontece, donde una de las más importantes corrientes son las criptomonedas, las cuales hoy día son la fiebre de las inversiones por parte de las personas que confían y creen en que este sistema genera riqueza a largo plazo.
+Estas afirmaciones se basan en referencias de personas que ya han experimentado y logrado excelentes beneficios económicos y los cuales hoy día son multimillonarios. Busca mayor información en la App oficial de Immediate Edge.
+El arte de encriptar
+Cifrar o encriptar una información significa ocultarla a simple vista, de manera que haga falta un procedimiento concreto para poder desvelarla. No es algo del siglo XXI: el cifrado ya existía mucho antes de Internet. 
+Sabemos que los babilonios utilizaban métodos criptográficos en su escritura cuneiforme, que los antiguos sacerdotes egipcios usaban la escritura hierática (jeroglífica) para poder transmitir información sin ser comprendidos por el pueblo –que empleaba la lengua demótica– y que algunos escribas hebreos que trabajaban para las élites de poder, entre los años 600 y 500 a.C., invertían el alfabeto como forma de cifrar sus mensajes.
+Pero probablemente el primer método de espionaje en el que se empleó la criptografía fue la escítala ( skytálē ) griega, un sistema de cifrado utilizado hace 2.400 años para enviar mensajes secretos durante la batalla. Descrito por Plutarco en Vida de Lisandro , consistía en enrollar en espiral una tira de cuero o papiro alrededor de una vara de madera. Se escribía el mensaje longitudinalmente, se desenrollaba la cinta y se enviaba al receptor, al que se le entregaba una vara como la utilizada. Este solo tenía que enrollar la cinta a la vara gemela para leer el mensaje original. En criptografía, este método se denomina transposición y consiste en alterar el orden de los elementos del mensaje, cambiar el orden de las letras que lo componen.
+Sería Julio César quien desarrollara alrededor del año 60 a.C. otra técnica de codificación, tan simple como efectiva, para enviar la información recabada por sus espías. Su método –que ha pasado a la historia como Cifrado César– era un cifrado de sustitución que consistía en desplazar a izquierda o a derecha las letras del abecedario un número determinado de veces. Por ejemplo, si A se convierte en D, B se convierte en E, y así sucesivamente. El número de veces que desplazamos una letra es la clave, y cualquier persona que la conozca puede descifrar el mensaje. Y ese era el problema: había que enviar la clave al destinatario antes de mandar el mensaje y, si durante la transmisión era robada, la encriptación ya no servía de nada.
+En el siglo IX, un matemático árabe que trabajaba en la Casa de la Sabiduría de Bagdad, Al-Kindi (Abu Yusuf Yaqub ibn Ishaq al-Sabbah al-Kindi), escribió Manuscrito para descifrar mensajes criptográficos . En él, el padre del criptoanálisis describe un método, basado en el análisis de frecuencias, que permite romper todos los cifrados monoalfabéticos .
+El disco de cifrado de Alberti
+El sistema iría evolucionando y, en torno a 1467, el genovés Leon Battista Alberti (1404-1472), secretario personal de tres papas –Eugenio IV, Nicolás V y Pío II–, humanista, matemático, poeta, criptógrafo, lingüista, filósofo, músico y arqueólogo (como se ve, uno de los humanistas más polifacéticos del Renacimiento), inventó y patentó el primer cifrado de sustitución polialfabético, cambiando el curso de la criptografía para siempre. Era el primer método que requería una clave adecuada, es decir, una palabra clave acordada que el destinatario necesitaba saber si deseaba descodificar el mensaje. Para facilitar el proceso de cifrado/descifrado, el genovés propuso en su tratado De componendis cifris (1467) un artilugio conocido como “disco de Alberti”, compuesto por dos discos de metal en el mismo eje, uno dentro del otro, que comprendían alfabetos mixtos y rotaciones variables que utilizaban la sustitución de letras de modo no periódico. El anillo fijo tenía 24 celdas iguales (cada una con un símbolo del alfabeto latino grabado en mayúsculas) y a continuación los números 1, 2, 3 y 4. Este alfabeto se usaría para el texto en claro. Unida a él estaba una pieza circular concéntrica y móvil –de forma que podía moverse con respecto al otro anillo– con 24 celdas iguales cuyo orden podía ser cualquiera (cada una tenía grabado un símbolo del alfabeto latino en minúscula o los símbolos &, y, k, h). Este alfabeto se usaría para el texto cifrado.
+Así, mediante el giro del anillo móvil, se podía emparejar el alfabeto del círculo de arriba con tantos alfabetos del círculo de abajo como giros del anillo se dieran, hasta un máximo igual a los caracteres del alfabeto empleado. Tanto el emisor como el receptor necesitaban discos idénticos para leerlo y compartir una contraseña que proporcionaba una clave de cifrado adecuada, es decir, una palabra o frase clave acordada como plantilla para el cambio o sustitución de letras que permitía descodificar el mensaje. Los giros a realizar en el anillo móvil se indicaban en el texto cifrado. Se podía usar una contraseña o clave directamente o también ejecutar mediante un algoritmo, para crear una clave de cifrado más segura. El receptor tenía que realizar operaciones inversas a las que realizaba el cifrador.
+Más difícil todavía
+Casi cuatro siglos después, en 1854, el científico e inventor británico de la época victoriana sir Charles Wheatstone (1802-1875), que destacó por diseñar el estereoscopio –que creaba la ilusión de ver imágenes tridimensionales–, el caleidófono y el aparato eléctrico que lleva su nombre, el puente de Wheatstone (utilizado para medir las resistencias eléctricas), inventó también la técnica de codificación Playfair. Era un método manual de criptografía simétrica por medio de sustitución cuyo cifrado toma pares de letras, o digramas, y los cambia mediante una tabla generada por una clave. Al cifrar pares de letras en lugar de una sola, es más difícil de descifrar. Aunque fue Wheatstone quien inventó este cifrado para encriptar mensajes enviados por telegrama, lleva el nombre de su amigo lord Playfair, quien lo promovió para uso militar. De hecho, el inusual cifrado de Playfair fue utilizado por los militares de varias naciones durante la Primera Guerra Mundial y por los servicios de inteligencia británicos durante la Segunda. Al principio era resistente al criptoanálisis, pero finalmente se desarrollaron métodos para romperlo. También se utilizó para la interpretación de manuscritos cifrados en el Museo Británico.
+Y llegó el siglo XX y, con él, la máquina de rotores Hebern. Creada y patentada en 1917 por el inventor estadounidense Edward Hugh Hebern (1869-1952), fue la primera máquina electromecánica de cifrado y funcionaba a base de un sistema de rotores (la llave está incrustada en un disco giratorio). Este primer ejemplo de una máquina de rotor codificaba una tabla de sustitución que se cambiaba cada vez que se escribía un nuevo carácter.
+Un año después, en 1918, la empresa alemana Scherbius & Ritter, cofundada por el ingeniero alemán Arthur Scherbius –que había comprado la patente a un inventor neerlandés–, patentó la máquina Enigma, que, en lugar del único rotor utilizado por Hebern, utilizaba varios y permitía ser usada tanto para cifrar como para descifrar mensajes. Se puso a la venta en 1923 para su uso comercial y el ejército alemán comenzó a emplearla para enviar transmisiones codificadas.
+Enigma, una máquina mítica
+El mecanismo de Enigma consistía en dos filas de teclas con las letras del alfabeto que en realidad eran interruptores que accionaban los dispositivos eléctricos y movían unos cilindros rotatorios. El usuario tenía que teclear las letras de su mensaje y anotar las que devolvía la máquina (a través de un alfabeto que se iba iluminando). El código a usar se fijaba con las posiciones de los cilindros, que constaban cada uno de 26 cables que se conectaban al teclado. El primer cilindro giraba un veintiseisavo de vuelta después de cada pulsación, de modo que la posición de las conexiones iba cambiando con cada entrada del teclado, obteniéndose un cifrado polialfabético. Además, el segundo cilindro solo daba un giro cuando el primero había completado 26 giros y el tercero cuando el segundo había dado los suyos. Tenía la posibilidad de que los rodillos fueran intercambiados de posición, aumentando las posibilidades a 105.456 alfabetos. A estos se unían las 100.391.791.500 maneras distintas de conectar sus seis cables de conexión, que también permitían introducir modificaciones dado que podían conectarse a 26 lugares.
+El cifrado con la máquina Enigma representaba un proceso largo y pesado. Requería dos operarios que debían trabajar conjuntamente: uno pulsaba las letras y otro registraba la letra cifrada, que se encendía en el panel superior de bombillas. Para descifrar los mensajes enviados se usaba el mismo sistema, pero al revés.
+Enigma era considerada un invento genial porque creaba para cada mensaje su propia clave, por lo que algunos opinaban que era el cifrador ideal, al considerarse imprevisible e indescifrable. Hay que recordar que entonces todo el cálculo de posibilidades tenía que hacerse a mano. Los alemanes introdujeron durante la guerra innumerables modificaciones, lo que impidió que Moscú lograra descifrarla, aunque finalmente su sistema fue descubierto por británicos y estadounidenses.
+El esfuerzo que rompió el cifrado alemán empezó cuando los polacos interceptaron una máquina Enigma enviada de Berlín a Varsovia. No era una versión militar, pero hizo pensar que los alemanes podrían utilizar una máquina así en el futuro. Cuando el ejército nazi comenzó a usar Enigmas modificadas años después, los polacos intentaron romper el sistema buscando el cableado de los rotores usados en la versión del ejército y encontrando una manera de recuperar las configuraciones usadas para cada mensaje en particular.
+A finales de 1932, el matemático polaco Marian Rejewski (1905-1980) logró uno de los mayores descubrimientos en la historia del criptoanálisis: usando técnicas de matemáticas y estadística, encontró una manera de combinarlas que le permitió descubrir cómo funcionaba Enigma. Sin embargo, al añadir los alemanes dos rotores más a la máquina y viendo los polacos que la invasión alemana se acercaba y no eran capaces de avanzar con sus recursos, decidieron a mediados de 1939 compartir sus resultados con la inteligencia francesa y británica.
+En la Escuela Gubernamental de Códigos y Cifrado (GC&CS) del servicio secreto británico, en Bletchley Park (al norte de Londres), matemáticos y criptógrafos –entre ellos, Alan Turing–, jugadores de ajedrez y bridge y fanáticos de los crucigramas se enfrentaron a los problemas presentados por las muchas variaciones alemanas de Enigma y encontraron medios para quebrar muchas de ellas, aunque el descifrado completo se les resistía. Tal era el secretismo con el que trabajaban, que los informes de sus avances iban directamente a Winston Churchill.
+Un golpe de suerte
+Fue Alan Turing quien, basándose en la “bomba criptológica” ideada en 1938 por Rejewski, diseñó en 1939, en Bletchley Park, la Bombe Machine . Era un dispositivo electromecánico que replicaba la acción de varias máquinas Enigma cableadas unas con otras y que ayudó a descifrar las señales cifradas por la máquina alemana.
+Está claro que Enigma tenía algunas debilidades criptográficas, pero el descifrado también se consiguió gracias a fallos por parte de los operadores alemanes, como el no desarrollar modificaciones continuas en el cifrado. Pero, además, al trabajo con la Bombe se unió un golpe de suerte final: la captura del barco U-110, equipado con una máquina Enigma, un libro de códigos y tablas de descifrado, un manual de operaciones y otras informaciones. Eso permitió a criptógrafos como Turing descubrir cómo descifrar la clave que los alemanes cambiaban a diario, lo que, sin lugar a dudas, resultó crucial para la victoria de los aliados en la Segunda Guerra Mundial. Descubrir la información que contenían los mensajes que los nazis creían protegidos fue una de las causas que, según algunos, permitieron concluir la contienda al menos dos años antes.
+Criptografía moderna
+En 1945, el matemático, ingeniero y criptógrafo estadounidense Claude E. Shannon (1916-2001) publicó el artículo Una teoría matemática de la criptografía , punto de partida de la criptografía moderna, que vería su primera clave de ordenador en 1961. El Compatible Time-Sharing System (Sistema de Tiempo Compartido Compatible), desarrollado en el Centro de Computación del MIT (Instituto Tecnológico de Massachusetts) entre 1961 y 1973 , tuvo una de las primeras utilidades computerizadas para formatear textos y de las primeras implementaciones de correo electrónico entre usuarios, además de emplear el primer método de autenticación de usuario con contraseña y nombre. Y probablemente fue el primer sistema en experimentar una violación de contraseña, en 1966, cuando un error de software mezcló el mensaje de bienvenida del sistema y su archivo de llave maestra, y cualquier persona que iniciaba sesión se encontraba la lista de contraseñas CTSS.
+Más tarde, en 1979, la Oficina Nacional de Estándares de EE UU inventó el Data Encryption Standard (DES) o estándar de cifrado de datos, utilizando el cifrado de última generación de 56 bits. En ese momento, era tan fuerte que ni siquiera una supercomputadora podía descifrarlo. DES fue el estándar durante casi 20 años, hasta que la Electronic Freedom Foundation rompió la clave DES en 56 horas en 1998 (y un año después, en 22 horas). Hoy en día, DES se considera inseguro para muchas aplicaciones y desde hace algunos años el algoritmo ha sido sustituido por el nuevo AES ( Advanced Encryption Standard ). A pesar de todo, DES es considerado como el desencadenante del estudio académico de la criptografía, en particular de los métodos para romper cifrados de bloque. Hoy, a medida que más y más servicios se trasladan a la nube, el cifrado de los datos en tránsito es fundamental y los criptógrafos desarrollan y perfeccionan continuamente soluciones para este desafío.
+A diferencia del siglo XX, en el que se utilizaban las máquinas de cifrar, en la actualidad la encriptación se basa en las tecnologías de la información y de la comunicación. Los tipos de encriptación más comunes son: mediante claves simétricas en las que se utiliza una determinada clave en la transformación de la información encriptada para conseguir desencriptarla (el problema reside en la necesidad de que todas las partes conozcan la clave); mediante claves asimétricas o públicas en las que cada usuario dispone de dos claves, una pública, que debe revelar o publicar para que los demás puedan comunicarse con él, y una privada, que debe mantener en secreto; y mediante códigos de integridad, en los que se utilizan funciones matemáticas que derivan de una huella digital a partir de un cierto volumen de datos (si se manipulan los datos, la huella cambia, y obtener la misma huella es algo informaticamente inabordable en un tiempo razonable). Y hoy día los métodos de cifrado se pueden encontrar en casi todas partes en la comunicación digital.
