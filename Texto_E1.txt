@@ -1,1 +1,0 @@
-Es un sistema criptografico clave desarrollado con la finalidad de ocultar la informacion importante de un individuo
